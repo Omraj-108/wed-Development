@@ -1,0 +1,44 @@
+#one{
+    height:100px;
+    width:100px;
+    background-color: aqua;
+    transform:translate(-100px,100px);
+    margin:10px auto;
+   
+}
+#two{
+    height:100px;
+    width:100px;
+    background-color: yellow;
+    transform:rotate(45deg);
+    margin:10px auto;
+ 
+}
+#three {
+    height:100px;
+    width:100px;
+    background-color: greenyellow;
+    transform:scale(0.5); 
+    margin:10px auto;
+   
+}
+#four{
+    height:100px;
+    width:100px;
+    background-color:chartreuse;
+    transform:rotate(45deg);
+    margin:10px auto;
+}
+#five{
+    height:50px;
+    width:200px;
+    background-color:coral;
+    transform:skew(45deg);
+    margin:10px auto;
+}
+#six{
+    height:100px;
+    width:100px;
+    background-color:rgb(150, 66, 211);
+    box-shadow: 2px 2px 10px black;
+}

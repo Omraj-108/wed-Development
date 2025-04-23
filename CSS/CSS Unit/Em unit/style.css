@@ -1,0 +1,16 @@
+button{
+    font-size:50px;
+    border-radius:20px;
+    background-color: black;
+    color: white;
+    border:5px solid red;
+    
+    /* But this given padding can change if font-size of the button changes. */
+    padding-left:20px;
+    padding-right:20px;
+
+    /* For keeping padding as it is even if the font-size of the button changes then give the unit Em. */
+    
+    padding-left:1em;
+    padding-right:1em;
+}

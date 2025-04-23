@@ -1,0 +1,23 @@
+/* There are lots of anchor tags(<a>....</a>) are there in the code but i want to add styling to only tags in navigation */
+/* First Method */
+nav a{
+    color:red
+}  
+
+/* Second Method */
+/* Create a class in the navigation and give it here */
+.post a{
+    color: yellow
+}
+
+/* if i want to change the style of anchor only in paragraphs: */
+/* it also has similar 2 methods as mention above, one is direct and another is by creating the class: */
+/* First method: */
+/* p a{
+    color:chartreuse; background-color: black
+    
+} */
+/* Second method = creating the class */
+.class a{
+    color:cyan; background-color: black;
+}

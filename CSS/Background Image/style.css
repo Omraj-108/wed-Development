@@ -1,0 +1,10 @@
+div{
+    height:200px;
+    width:400px;
+    background-color: aqua;
+    color:white;
+    font-size: large;
+    margin:10px auto;
+    background-image: url(green-leaves-ferns-leaf-background-spring-closeup-5k-2560x1440-2445.jpg);
+    background-size: cover;
+}

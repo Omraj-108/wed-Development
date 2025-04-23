@@ -1,0 +1,37 @@
+#container{
+    width:80%;
+    height:300px;
+    background-color: azure;
+    margin:10px auto;
+    border:2px solid black;
+    display:flex;
+    flex-direction:row;
+    justify-content:flex-end;
+/* 
+    Just for my understanding:
+    There are 4 types of flex direction and 6 types of justify-content are there.
+    1) flex-direction: row;
+    2) flex-direction: row-reverse;
+    3) flex-direction: column;
+    4) flex-direction: column-reverse;
+
+    1) Justify-content: flex-start;
+    2) Justify-content: flex-end;
+    3) Justify-content: center;
+    4) Justify-content: space-around;
+    5) Justify-content: space-between;
+    6) Justify-content: space-evenly; */
+}
+
+h1{
+    text-align: center;
+    text-decoration: underline;
+}
+
+#container div{
+    height:100px;
+    width:100px;
+    color:white;
+    text-align:center;
+    font-size:1.5em;
+}

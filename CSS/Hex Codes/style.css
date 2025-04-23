@@ -1,0 +1,20 @@
+h1{
+    color:#000000 
+    /* in short we can also write ir as a #000 */
+}
+h2{
+    color: #ff0000  
+    /* in short we can also write ir as a #f00 */
+}
+h3{
+    color: #ffffff; background-color: #000000;
+    /* in short we can also write ir as a #fff */
+}
+p{
+    color: #00ff00 
+    /* in short we can also write ir as a #0f0 */
+}
+button{
+    color: #ffff00  
+    /* in short we can also write ir as a #ff0 */
+}

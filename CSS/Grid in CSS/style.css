@@ -1,0 +1,32 @@
+.container{
+    width:600px;
+    height:300px;
+    background-color: pink;
+    /* By displaying grid it will act as a block item: */
+    display: grid;
+    /* margin:10px auto; */
+    grid-template-rows: 50px 50px 50px 50px 50px;
+    grid-template-columns: 100px 100px 100px 100px;
+    row-gap: 10px;
+    column-gap:10px;
+    /* We can use auto also to give the automatic space in the browser but we will not commonly prefer it */
+    
+}
+
+.item{
+    width:100px;
+    height:50px;
+    background-color: greenyellow;
+    border:2px solid black;
+    text-align: center;
+}
+h1{
+    text-align: center;
+    text-decoration: underline;
+}
+
+.one{
+    grid-column-start:1;
+    grid-column-end:3;
+
+}

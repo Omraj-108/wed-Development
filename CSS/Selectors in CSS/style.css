@@ -1,0 +1,42 @@
+/* Universal selector: If I want to apply styling on all over the document */
+*{
+    font-family:Georgia
+   /* Element selector: individual selector: */
+}
+h1{
+    color:brown
+}
+h3{
+    color:red;
+}
+   
+/* ID Selector: means attributr is the value of ID: */
+
+#login {
+    color:yellow;  background-color: black;
+}
+#signup {
+    color:chartreuse; background-color: black;
+}
+
+/* Class selector: if i want to apply styling on all the elements whome class is given: */
+
+.upvote{
+    color:chocolate; backgrwant to select all he content in particular region */
+/* for ex: I want to select all the paragraphs inside the div element: */
+ div li{
+    color:darkorange; background-color: darkgray; 
+ }
+
+ /* Adjacent sibling Combinator: Add styling on an element which come immediately after another element */
+ p+h3 {
+    color:green
+ }
+ 
+ /* Child Combinator: style the element based on the value of the attribute: */
+ input[type="password"]{
+    color:red
+ }
+ input[type="text"] {
+    color:lime
+ }

@@ -1,0 +1,10 @@
+button:hover{
+    color: white; background-color: black;
+}
+
+button:active{
+    background-color: red;
+}
+.div:nth-of-type(2) {
+    color:chocolate; background-color: chartreuse;
+}
